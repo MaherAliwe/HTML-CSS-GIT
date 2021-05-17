@@ -1,26 +1,12 @@
-/* Write your media queries and flexbox CSS below */
-@media screen and (min-width: 480px) {
-  .site-header__nav a {
-    display: inline-block;
-  }
+/* Add your own CSS code below */
+.link {
+  color: orangered;
+  font-weight: 700;
+  text-decoration: none;
 }
-
-@media screen and (min-width: 700px) {
-  .site-header {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-@media screen and (min-width: 992px) {
-  .site-header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-  }
-  .site-header__nav a {
-    display: inline-block;
-  }
-  .site-header__checkout {
-    justify-items: flex-end;
-  }
-}
+/*purple_links
+.link {
+  color: orange;
+  font-weight: 700;
+  text-decoration: none;
+}*/
